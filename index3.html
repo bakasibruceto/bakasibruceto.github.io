@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+
+<video width="920" height="740" controls autoplay muted="false">
+  <source src="ye.mp4" type="video/mp4">
+  
+  Your browser does not support the video tag.
+</video>
+<h1 id="blinkingText" style="font-size: 10em;">YOU JUST GOT HACKED</h1>
+
+
+<script>
+    function blink() {
+        var blinkingText = document.getElementById('blinkingText');
+        setInterval(function () {
+            blinkingText.style.visibility = (blinkingText.style.visibility === 'hidden') ? '' : 'hidden';
+        }, 500); // Toggle visibility every 500 milliseconds (adjust as needed)
+    }
+
+    blink(); // Call the blink function to start the blinking effect
+</script>
+</body>
+</html>
