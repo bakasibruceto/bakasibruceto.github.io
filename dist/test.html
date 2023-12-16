@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Anime.js Example</title>
+    <style>
+        #animated-div {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <div id="animated-div"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script>
+        anime({
+            targets: '#animated-div',
+            translateX: 250,
+            duration: 1000,
+            easing: 'linear'
+        });
+    </script>
+</body>
+</html>
