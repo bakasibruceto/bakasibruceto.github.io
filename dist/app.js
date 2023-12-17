@@ -6,7 +6,7 @@ window.onload = function () {
         easing: 'easeInOutQuad'
     });
     anime({
-        targets: 'img[src="../img/3.png"]',
+        targets: '.class3',
         keyframes: [
             { translateX: -20, rotate: 8 },
             { translateX: 0, rotate: 0 }
@@ -17,7 +17,7 @@ window.onload = function () {
         loop: true
     });
     anime({
-        targets: 'img[src="../img/4.png"]',
+        targets: '.class4',
         keyframes: [
             { translateX: -40, rotate: 16 },
             { translateX: 0, rotate: 0 }
@@ -29,7 +29,7 @@ window.onload = function () {
     });
 
     anime({
-        targets: 'img[src="../img/5.png"]',
+        targets: '.class5',
         keyframes: [
             { translateX: -25, rotate: 10 },
             { translateX: 0, rotate: 0 },
@@ -41,7 +41,7 @@ window.onload = function () {
     });
 
     anime({
-        targets: 'img[src="../img/6.png"]',
+        targets: '.class6',
         keyframes: [
             { translateX: 10, rotate: -5 },
             { translateX: -10, rotate: 5 },
@@ -54,7 +54,7 @@ window.onload = function () {
     });
 
     anime({
-        targets: 'img[src="../img/7.png"]',
+        targets: '.class7',
         keyframes: [
             { translateX: 25, rotate: -10 },
             { translateX: 20, rotate: -8 },
@@ -67,7 +67,7 @@ window.onload = function () {
     });
 
     anime({
-        targets: 'img[src="../img/8.png"]',
+        targets: '.class8',
         keyframes: [
             { translateX: 10, rotate: -5 },
             { translateX: -10, rotate: 5 },
@@ -80,7 +80,7 @@ window.onload = function () {
     });
 
     anime({
-        targets: 'img[src="../img/9.png"]',
+        targets: '.class9',
         keyframes: [
             { translateX: 30, rotate: -12 },
             { translateX: 0, rotate: 0 },
