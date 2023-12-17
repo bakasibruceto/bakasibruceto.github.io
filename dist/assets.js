@@ -27,7 +27,7 @@ const classes = [
 let html = '';
 
 images.forEach((image, index) => {
-  html += `<img class="w-96 absolute top-0 left-0 ${classes[index]}" src="${basePath}${image}.png" alt="Description of the image" loading="lazy">\n`;
+  html += `<img class="w-96 absolute top-0 left-0 ${classes[index]}" src="${basePath}${image}.PNG" alt="Description of the image" loading="lazy">\n`;
 });
 
 document.getElementById('imageContainer').innerHTML = html;
