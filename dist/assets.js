@@ -1,4 +1,4 @@
-const basePath = "../../img/hair/";
+const basePath = "img/hair/";
 const images = [
   "1",
   "2",
@@ -14,7 +14,6 @@ const classes = [
   "class1",
   "class2",
   "class3",
- 
   "class5",
   "class4",
   "class6",
