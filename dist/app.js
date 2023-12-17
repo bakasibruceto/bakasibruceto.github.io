@@ -2,7 +2,7 @@
 anime({
     targets: '#imageContainer',
     opacity: [0, 1],
-    duration: 1000,
+    duration: 7000,
     easing: 'easeInOutQuad'
 });
 
