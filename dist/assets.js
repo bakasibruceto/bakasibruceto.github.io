@@ -2,6 +2,9 @@ const basePath = "../img/hair/";
 const images = [
   "1",
   "2",
+  "10",
+  "11",
+  "12",
   "3",
   "5",
   "4",
@@ -9,10 +12,14 @@ const images = [
   "8",
   "7",
   "9",
+  
 ];
 const classes = [
   "class1",
   "class2",
+  "class10",
+  "class11",
+  "class12",
   "class3",
   "class5",
   "class4",
@@ -20,8 +27,7 @@ const classes = [
   "class8",
   "class7",
   "class9",
-  "class10",
-  "class11"
+ 
 ];
 
 let html = '';
