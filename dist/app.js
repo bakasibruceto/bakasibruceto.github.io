@@ -1,4 +1,4 @@
-window.onload = function () {
+
     anime({
         targets: '#imageContainer',
         opacity: [0, 1],
@@ -93,7 +93,7 @@ window.onload = function () {
         loop: true
     });
 
-}
+
 
 
 
