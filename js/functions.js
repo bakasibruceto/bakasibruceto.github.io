@@ -3,7 +3,7 @@ export function techCards(ids, images, titles) {
 
     for (let i = 0; i < ids.length; i++) {
         html += `
-            <div class="flex items-start gap-4">
+            <div class="flex items-start gap-4 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
                 <span class="rounded-lg">
                     <img class="w-20 h-20" src="${images[i]}" alt="${titles[i]}">
                 </span>
