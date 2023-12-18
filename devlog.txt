@@ -1,10 +1,12 @@
-12/15/2023
-setup tailwind class
-anime.js
-
-12/16/2023
+12/16/2023 index[0]
 Start of Devlog
 waving hair
 
-12/17/2023
+12/17/2023 index[1]
 front bangs done
+web layout
+
+12/18/2023
+js functions
+technologies
+contacts
