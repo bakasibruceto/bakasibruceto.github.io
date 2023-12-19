@@ -7,16 +7,9 @@
   <title>bakasibruceto</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
-    html {
-      scroll-behavior: smooth;
-      -ms-overflow-style: none;
-      scrollbar-width: none;
-    }
-
     html::-webkit-scrollbar {
       display: none;
     }
-    
   </style>
 </head>
 
@@ -26,26 +19,24 @@
     <div class="fixed right-0">
       <div class="">
         <div class="pr-3">
-          <a href="#"
+          <a href="#aboutme"
             class="shrink-0 rounded-lg p-2 text-sm font-medium text-gray-500 hover:bg-gray-50 hover:text-gray-700">
             About me
           </a>
-
           <a href="#"
             class="shrink-0 rounded-lg p-2 text-sm font-medium text-gray-500 hover:bg-gray-50 hover:text-gray-700">
             Projects
           </a>
-
           <a href="#contacts"
             class="shrink-0 rounded-lg p-2 text-sm font-medium text-gray-500 hover:bg-gray-50 hover:text-gray-700">
             Contacts
           </a>
         </div>
       </div>
-
     </div>
     <!-- introduction -->
-    <div class="pt-20 grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 justify-items-center pb-40">
+    <div
+      class="border border-solid border-2 pt-20 grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 justify-items-center pb-40">
       <div id="imageContainer" class="md:ml-80 relative w-96 justify-center bg-cover bg-center scale-110">
       </div>
       <div class="flex flex-col justify-center md:mt-40 w-96 md:mr-60">
@@ -70,19 +61,27 @@
       <br><br>
     </div>
     <!-- about me -->
-    <!-- <div class="pt-10 pl-80 pr-80">
-    <div class=" border-solid border-2 border-sky-500">
-      <p
-        class="text-3xl font-bold text-gray-800 mt-80 pt-20 md:mt-0 md:pt-0 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:cursor-pointer">
-        About Me</p>
-
-      <p class="pt-10">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur repellat deleniti porro
-        suscipit a quo
-        quam recusandae corporis nam sequi ab laborum, tenetur perspiciatis, maiores beatae? Deleniti unde earum sint!
-      </p>
+    <div id="aboutme" class="p-20 pt-10">
+      <div class="max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
+        <div class="max-w-xl">
+          <h2 class="text-3xl font-bold sm:text-4xl">About me</h2>
+        </div>
+        <div class="mb-0 text-slate-500 text-2xl">
+          <p style="text-indent: 50px;" class="text-justify pt-10">
+            Hello my name is Aaron Bruce L. Agaloos, you can call me Bruce and my interest resides with the lively world
+            of website development. For me website is
+            not just a digital space,
+            it's a reflection of creativity, effectiveness and user experience. I enjoy exploring the complex structure
+            of
+            websites, and learning about cutting-edge web design methods casts a light on my creativity, which is not
+            only
+            limited to professional interest but also for my personal fascination.
+          </p>
+        </div>
+      </div>
     </div>
-  </div> -->
-    <div class="p-20 pt-10">
+    <!-- techonologies -->
+    <div class="p-20 pt-0">
       <div class="max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
         <div class="max-w-xl">
           <h2 class="text-3xl font-bold sm:text-4xl">Technologies</h2>
@@ -122,7 +121,6 @@
       </div>
     </div>
   </div>
-
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
   <script type="module" src="js/assets.js"></script>
 </body>
