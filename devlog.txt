@@ -10,3 +10,10 @@ web layout
 js functions
 technologies
 contacts
+
+12/23/2023
+Scroll Progress Bar
+Optimize Profile Image Rendering
+Smooth Scroll
+Animations on Scroll
+

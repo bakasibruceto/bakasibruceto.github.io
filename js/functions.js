@@ -1,9 +1,11 @@
 export function techCards(ids, images, titles) {
     let html = '';
+    let baseDelay = 200;
 
     for (let i = 0; i < ids.length; i++) {
+        let delay = baseDelay * i; 
         html += `
-            <div class="flex items-start gap-4">
+            <div data-aos="fade-right" data-aos-delay="${delay}" class="flex items-start gap-4">
                 <span class="rounded-lg">
                     <img class="w-20 h-20" src="${images[i]}" alt="${titles[i]}">
                 </span>
@@ -17,7 +19,6 @@ export function techCards(ids, images, titles) {
 
     document.getElementById('tech').innerHTML = html;
 }
-
 export function preloadImages(images) {
     const basePath = "../img/hair/";
     images.forEach((image) => {
