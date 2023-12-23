@@ -31,3 +31,31 @@ rating('tailwind', 3);
 //profile(img_src, class_name)
 profile(images, classes);
 runAnimations();
+
+document.addEventListener('DOMContentLoaded', function () {
+    AOS.init();
+  });
+
+  AOS.init({
+    // The duration of the animation. Default is 400.
+    duration: 1100,
+  
+    // Whether to animate elements only once. Default is false.
+    once: false,
+  
+    // Whether to disable animations on mobile devices. Default is false.
+    disable: 'mobile'
+  });
+
+  const lenis = new Lenis()
+
+  lenis.on('scroll', (e) => {
+    console.log(e)
+  })
+
+  function raf(time) {
+    lenis.raf(time)
+    requestAnimationFrame(raf)
+  }
+
+  requestAnimationFrame(raf)

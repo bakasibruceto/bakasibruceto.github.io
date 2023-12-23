@@ -10,7 +10,25 @@
     html::-webkit-scrollbar {
       display: none;
     }
+
+    .class2,
+    .class3,
+    .class4,
+    .class5,
+    .class6,
+    .class7,
+    .class8,
+    .class9,
+    .class10,
+    .class11,
+    .class12 {
+      will-change: transform;
+    }
   </style>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.29/bundled/lenis.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
 </head>
 
 <body class="bg-slate-200">
@@ -35,11 +53,11 @@
       </div>
     </div>
     <!-- introduction -->
-    <div
-      class="border border-solid border-2 pt-20 grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 justify-items-center pb-40">
-      <div id="imageContainer" class="md:ml-80 relative w-96 justify-center bg-cover bg-center scale-110">
+    <div 
+      class="border border-solid border-2 pt-20 grid grid-cols-1 md:grid-cols-2 gap-4  justify-items-center sm:pb-40">
+      <div data-aos="fade"id="imageContainer" class="md:ml-80 relative w-96 justify-center bg-cover bg-center scale-110">
       </div>
-      <div class="flex flex-col justify-center md:mt-40 w-96 md:mr-60">
+      <div data-aos="fade-up" class="flex flex-col justify-center md:mt-40 w-96 md:mr-60">
         <p
           class="text-3xl font-bold text-gray-800 mt-80 pt-20 md:mt-0 md:pt-0 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:cursor-pointer">
           Aaron Bruce L. Agaloos</p>
@@ -61,13 +79,13 @@
       <br><br>
     </div>
     <!-- about me -->
-    <div id="aboutme" class="p-20 pt-10">
+    <div id="aboutme" class="pt-0 p-20 sm:pt-10">
       <div class="max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
         <div class="max-w-xl">
-          <h2 class="text-3xl font-bold sm:text-4xl">About me</h2>
+          <h2 data-aos="fade-up" class="text-3xl font-bold sm:text-4xl">About me</h2>
         </div>
-        <div class="mb-0 text-slate-500 text-2xl">
-          <p style="text-indent: 50px;" class="text-justify pt-10">
+        <div data-aos="fade-up" class="mb-0 text-slate-500 text-sm sm:text-2xl p-5 mt-10">
+          <p style="text-indent: 50px;" class="text-justify">
             Hello my name is Aaron Bruce L. Agaloos, you can call me Bruce and my interest resides with the lively world
             of website development. For me website is
             not just a digital space,
@@ -81,7 +99,7 @@
       </div>
     </div>
     <!-- techonologies -->
-    <div class="p-20 pt-0">
+    <div data-aos="fade-up" class="p-20 pt-0">
       <div class="max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
         <div class="max-w-xl">
           <h2 class="text-3xl font-bold sm:text-4xl">Technologies</h2>
@@ -92,14 +110,14 @@
     <!-- projects -->
 
     <!-- Contacts -->
-    <div id="contacts" class="pb-40">
-      <h3 class="text-4xl font-bold text-center">Explore new opportunities with me</h3>
-      <p class="pt-5 text-xl text-center text-gray-600 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:cursor-pointer"
+    <div   id="contacts" class="pb-40">
+      <h3 data-aos="fade" class="text-4xl font-bold text-center">Explore new opportunities with me</h3>
+      <p data-aos="fade-up" class="pt-5 text-xl text-center text-gray-600 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:cursor-pointer"
         onclick="navigator.clipboard.writeText(this.innerText)" title="Copy to clipboard">
         agaloos.aaronbruce@gmail.com
       </p>
-      <div class="flex justify-center">
-        <div
+      <div  class="flex justify-center">
+        <div data-aos="fade"
           class="pt-4 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:cursor-pointer">
           <a class="p-3" target="_blank" rel="noreferrer" href="https://github.com/bakasibruceto">
             <svg class="w-7 text-black fill-current inline-block" viewBox="0 0 16 16">
@@ -109,7 +127,7 @@
             </svg>
           </a>
         </div>
-        <div
+        <div data-aos="fade"
           class=" pt-4 p-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:cursor-pointer">
           <a target="_blank" rel="noreferrer" href="#">
             <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
@@ -121,7 +139,7 @@
       </div>
     </div>
   </div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+ 
   <script type="module" src="js/assets.js"></script>
 </body>
 

@@ -3,7 +3,7 @@ export function techCards(ids, images, titles) {
 
     for (let i = 0; i < ids.length; i++) {
         html += `
-            <div class="flex items-start gap-4 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+            <div class="flex items-start gap-4">
                 <span class="rounded-lg">
                     <img class="w-20 h-20" src="${images[i]}" alt="${titles[i]}">
                 </span>
@@ -18,7 +18,17 @@ export function techCards(ids, images, titles) {
     document.getElementById('tech').innerHTML = html;
 }
 
+export function preloadImages(images) {
+    const basePath = "../img/hair/";
+    images.forEach((image) => {
+        const img = new Image();
+        img.src = `${basePath}${image}.PNG`;
+    });
+}
+
 export function profile(images, classes) {
+    preloadImages(images);
+
     const basePath = "../img/hair/";
     let html = '';
 

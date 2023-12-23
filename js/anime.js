@@ -1,12 +1,4 @@
 export function runAnimations() {
-    window.onload = function() {
-        anime({
-            targets: '#imageContainer',
-            opacity: [0, 1],
-            duration: 1000,
-            easing: 'easeInOutQuad'
-        });
-    };
     anime({
         targets: '.class2',
         keyframes: [
