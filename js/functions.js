@@ -4,8 +4,9 @@ export function techCards(ids, images, titles) {
 
     for (let i = 0; i < ids.length; i++) {
         let delay = baseDelay * i; 
+        // data-aos="fade" data-aos-delay="${delay}"
         html += `
-            <div data-aos="fade-right" data-aos-delay="${delay}" class="flex items-start gap-4">
+            <div class="flex items-start gap-4">
                 <span class="rounded-lg">
                     <img class="w-20 h-20" src="${images[i]}" alt="${titles[i]}">
                 </span>
